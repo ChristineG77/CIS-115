@@ -48,7 +48,7 @@ public class M3CW2_Gilbert
         System.out.println("Character Value:" + myChar);
         System.out.println("Boolean Value:" + myBoolean);
         System.out.println("String Value:" + myString);
-
+     
     }
     
 }
