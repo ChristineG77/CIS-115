@@ -19,6 +19,9 @@ class M3_Get_Input
     length = keyboard.nextDouble(); //parse the input to a double; true false operation
     System.out.print("Enter the width: ");
     width = keyboard.nextDouble();
+    area = length * width;
+    System.out.println(area);
+    keyboard.close();
     }
     
 }
