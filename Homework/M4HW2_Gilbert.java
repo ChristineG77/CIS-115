@@ -27,12 +27,21 @@ public class M4HW2_Gilbert {
         age = keyboard.nextInt();
        
 
-        if (age >= 18 && citizenship == "yes")
+        if (age >= 18 )
         {
-            if (county == "yes" && days_lived >=30)
-               { if (legal == "no")
-                    {System.out.println("You are eligible to vote!");}
-                }
+            if (citizenship == "yes")
+            {
+                if (county == "yes")
+                { 
+                    if (days_lived >=30)
+                    {
+                        if (legal == "no")
+                        {   
+                            System.out.println("You are eligible to vote!");
+                        }
+                    }    
+                } 
+            }  
         }
         else
         {
