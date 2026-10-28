@@ -22,7 +22,7 @@ public class M4HW1_Gilbert {
         widgets_returned = keyboard.nextInt();
 
         //how many widgets were sold and how much in sales was it
-        widgets_net = widgets_sold - widgets_returned; 
+        widgets_net = widgets_sold - widgets_returned;
         widget_sales = widgets_net * SALE_PRICE;
         
 
