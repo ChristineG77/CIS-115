@@ -12,12 +12,12 @@ public static void runProgram()
     String keep_going = "yes";
     while(keep_going.equalsIgnoreCase("yes"));
         {
-            displayMenu();
-            System.out.println();
-            System.out.println("ou have exited the menu!");
-            System.out.print("Do you want to see the menu again? Enter yes or no: ");
-            keep_going = scan.next();
-            System.out.println();
+        displayMenu();
+        System.out.println();
+        System.out.println("ou have exited the menu!");
+        System.out.print("Do you want to see the menu again? Enter yes or no: ");
+        keep_going = scan.next();
+        System.out.println();
         }
     scan.close();
     System.out.println("Program has terminated");
@@ -37,7 +37,7 @@ public static void displayMenu()
     System.out.print("Selection: ");
     Scanner scan = new Scanner (System.in);
 
-    switch(scan.next())
+    switch(scan.nextInt())
         {
         case 1:
             getM6HW1();
@@ -65,9 +65,10 @@ public static void displayMenu()
             System.out.println("");
             displayMenu();
         }
+    scan.close();
 }
 
-public static void getMHW1()
+public static void getM6HW1()
 {
     System.out.println("");
     System.out.println("");
