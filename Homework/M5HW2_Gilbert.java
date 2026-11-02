@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class M4HW1_Gilbert {
-    public static void main(String[] args)
+public class M5HW2_Gilbert {
+    public static void main(String[] args) //this was also M4HW1
     {
         // the sale price and base salary are constants
         final double SALE_PRICE = 4.79, BASE_SALARY = 2000;
@@ -9,7 +9,7 @@ public class M4HW1_Gilbert {
         //use the scanner to get the widgets sold and widgets returned
         //declare variables
         Scanner keyboard = new Scanner(System.in);
-        int widgets_sold,netwidgets_sold=0,widgets_returned,netwidgets_returned=0,widgets_month,month=1;
+        int widgets_sold,netwidgets_sold=0,widgets_returned,netwidgets_returned=0,widgets_month,month=0;
         double commission_rate = 0,widget_sales,commission_amount,monthly_salary;
         String name;
         char choice='y';
