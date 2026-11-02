@@ -10,7 +10,8 @@ public static void runProgram()
     System.out.println("Method Project");
     Scanner scan = new Scanner(System.in);
     String keep_going = "yes";
-    while(keep_going.equalsIgnoreCase("yes"));
+    while(keep_going.equalsIgnoreCase("yes"))
+    
         {
         displayMenu();
         System.out.println();
