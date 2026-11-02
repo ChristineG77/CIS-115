@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class M5HW2_Gilbert {
-    public static void main(String[] args)
+    public static void main(String[] args) //this was also M4HW1
     {
         // the sale price and base salary are constants
         final double SALE_PRICE = 4.79, BASE_SALARY = 2000;
@@ -15,7 +15,7 @@ public class M5HW2_Gilbert {
         char choice='y';
         while (choice == 'y'|| choice == 'Y')
         {
-            netwidgets_wold = 0;
+            netwidgets_sold = 0;
             netwidgets_returned = 0;
             //ask for the widgets sold and returned and name of sales person
             System.out.println("What is the name of the Sales Personnel using this terminal? ");
