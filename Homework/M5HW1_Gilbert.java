@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 /**
  * M5HW1_starter_file
+ *Christine Gilbert
+ *11/1/2026
+ *CIS-115
  */
 public class M5HW1_Gilbert
 {
