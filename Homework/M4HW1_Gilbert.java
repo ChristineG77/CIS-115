@@ -9,13 +9,14 @@ public class M4HW1_Gilbert {
         //use the scanner to get the widgets sold and widgets returned
         //declare variables
         Scanner keyboard = new Scanner(System.in);
-        int widgets_sold,netwidgets_sold=0,widgets_returned,netwidgets_returned=0,widgets_month,month;
+        int widgets_sold,netwidgets_sold=0,widgets_returned,netwidgets_returned=0,widgets_month,month=1;
         double commission_rate = 0,widget_sales,commission_amount,monthly_salary;
         String name;
         char choice='y';
         while (choice == 'y'|| choice == 'Y')
         {
-            month = 1;
+            netwidgets_sold = 0;
+            netwidgets_returned = 0;
             //ask for the widgets sold and returned and name of sales person
             System.out.println("What is the name of the Sales Personnel using this terminal? ");
             name = keyboard.nextLine();
