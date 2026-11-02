@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class M4HW1_Gilbert {
+public class M5HW2_Gilbert {
     public static void main(String[] args)
     {
         // the sale price and base salary are constants
