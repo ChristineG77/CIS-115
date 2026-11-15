@@ -1,3 +1,9 @@
+/**
+ *Christine Gilbert 
+ * CIS 115
+ * 11/15/2026
+ * Make a meter calculator for the month
+ */
 import java.util.Scanner;
 public class M6HW2_Gilbert {
 

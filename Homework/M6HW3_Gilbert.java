@@ -1,8 +1,19 @@
+/**
+ *Christine Gilbert 
+ * CIS 115
+ * 11/15/2026
+ * Make a calculator to determine an employees commission
+ */
 import java.util.Scanner;
 
 public class M6HW3_Gilbert {
     
     public static void main(String[] args)
+    {
+        calculator();
+    }
+
+    public static void calculator()
     {
         final double BASE_SALARY = 500;
         String name;
@@ -19,7 +30,7 @@ public class M6HW3_Gilbert {
         System.out.println("Employee: "+name);
         System.out.println("Net Widgets Sold this month: "+wid_net);
         System.out.println("Total Commission: $"+comm);
-
+        scan.close();
 
 
 

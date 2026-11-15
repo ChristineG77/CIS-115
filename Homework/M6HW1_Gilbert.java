@@ -1,3 +1,10 @@
+/**
+ *Christine Gilbert 
+ * CIS 115
+ * 11/15/2026
+ * Make an employee calculator
+ */
+
 import java.util.Scanner;
 
 public class M6HW1_Gilbert {
