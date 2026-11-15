@@ -19,7 +19,7 @@ public class M6HW3_Gilbert {
         System.out.println("Employee: "+name);
         System.out.println("Net Widgets Sold this month: "+wid_net);
         System.out.println("Total Commission: $"+comm);
-
+        scan.close();
 
 
 
