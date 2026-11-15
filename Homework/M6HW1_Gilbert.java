@@ -11,6 +11,10 @@ public class M6HW1_Gilbert {
 //Employee Gross Pay Calculator
 public static void main(String[] args)
 {
+    employeeCalculator();
+}
+public static void employeeCalculator()
+{
 double pay_rate,gross_pay;
 int hours_worked;
 String name;

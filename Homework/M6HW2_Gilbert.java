@@ -8,7 +8,10 @@ import java.util.Scanner;
 public class M6HW2_Gilbert {
 
 public static void main(String[] args)
-
+{
+    meterMonth();
+}
+public static void meterMonth()
 {   final double BASE_FEE = 50;
     double prev_month,cur_month,usage,charge;
     String name;
