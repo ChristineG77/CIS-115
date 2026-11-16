@@ -160,6 +160,6 @@ public static void getM6HW3()
     
 }
 
-
+//closing the scan variable will break the methods and cause an error
 
 }
